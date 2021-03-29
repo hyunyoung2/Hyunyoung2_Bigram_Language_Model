@@ -20,7 +20,7 @@ Run "make_dict.py" file like this:
 
 Options:
 
-	-l : the location of raw corpus(default: Data_dict/text.txt)
+      -l : the location of raw corpus(default: Data_dict/text.txt)
 
 
 
@@ -43,9 +43,9 @@ Run "bigram_language_model.py" file as follows:
 
 Options:
 
-	-u: the number of unigram character for the initial unigram character(defualt: 5)
+      -u: the number of unigram character for the initial unigram character(defualt: 5)
 
-	-e: For exception, when there is no bigram character in dictionary, unigram character is created according to the value of "-e"(default: 5)
+      -e: For exception, when there is no bigram character in dictionary, unigram character is created according to the value of "-e"(default: 5)
 
 
 ```
