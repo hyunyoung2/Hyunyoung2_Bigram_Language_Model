@@ -23,8 +23,8 @@ Options:
    -l : the location of raw corpus(default: Data_dict/text.txt)
 
 
-'''
 
+```
 $ python3 make_dict.py -l Data_dict/test.txt                                        
 
 ===== You are reading the file named Data_dict/test.txt =====
@@ -33,7 +33,7 @@ $ python3 make_dict.py -l Data_dict/test.txt
 
 ===== create bigram character dictionary in Probs_dict/Bigram_probs.txt =====
 
-'''
+```
 
 
 To generate text with bigram language model, below is result with bigram language model
@@ -48,7 +48,7 @@ Options:
    -e: For exception, when there is no bigram character in dictionary, unigram character is created according to the value of "-e"(default: 5)
 
 
-'''
+```
 
 $ python3 bigram_language_model.py -u 3 -e 5
 
@@ -60,7 +60,7 @@ Final result of bigram language model:
 
 다 .다 먹었다 했다
 
-'''
+```
   
 
 
