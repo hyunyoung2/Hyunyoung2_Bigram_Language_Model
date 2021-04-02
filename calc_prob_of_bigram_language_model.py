@@ -111,10 +111,10 @@ def sample2_cal_prob(txt_list, bi_probs_dict):
             word_probs[word_val] = word_prob
           
                  
-            print("===== Before sorting =====")
-            print(word_probs)
-            print("===== After sorting =====") 
-            print(sorted(word_probs.items(), key=(lambda x: x[1]), reverse=True))
+        print("===== Before sorting =====")
+        print(word_probs)
+        print("===== After sorting =====") 
+        print(sorted(word_probs.items(), key=(lambda x: x[1]), reverse=True))
 
 
 if __name__ == "__main__":
