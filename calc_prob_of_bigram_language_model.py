@@ -113,7 +113,7 @@ def sample2_cal_prob(txt_list, bi_probs_dict):
                  
             print("===== Before sorting =====")
             print(word_probs)
-            print("===== After sorting =====" 
+            print("===== After sorting =====") 
             print(sorted(word_probs.items(), key=(lambda x: x[1]), reverse=True))
 
 
