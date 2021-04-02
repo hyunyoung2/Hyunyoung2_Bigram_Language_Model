@@ -20,7 +20,7 @@ Finally, if you want to generate text based on bigram language model
  
 """ 
 
-DEBUG_OPT = DEBUG_LEVEL0
+DEBUG_OPT = DEBUG_LEVEL1
 
 def read_prob_file(path, n_gram="uni"):
     """This function read probability file calculated by make_dict.py
@@ -95,7 +95,7 @@ def get_top_n_uni_char(uni_counts, n=3):
         n(int): how many do you want to choose between 3 and 5
 
     Return:
-        uni_char(list): unigram character from 3 unigram characters to 5 unigram characters
+        top_uni_chars(list): unigram character from 3 unigram characters to 5 unigram characters
     """
 
     # uni_count is already sorted 
@@ -128,7 +128,7 @@ def bigram_top_n(uni_char, bi_probs, n=3):
         bi_probs(dict): bigram character dictionary (bigram, cnt, prob)
         n(int): how many candidate of bigram character do you want to choose 
     Return:
-        uni_char(list): arbirtrarily choose one from top bigrams
+        top_bi(list): arbirtrarily choose one from top bigrams
     """
 
     
